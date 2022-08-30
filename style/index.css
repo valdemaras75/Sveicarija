@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    background-image: url(../img/sveicarija.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+.nav-item{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 86px;
+    font-size: 38px;
+}
+
+.nav-item:hover{
+    color: rgb(243, 13, 13);
+}
+
+.nav-item:last-child{
+    margin-right: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    padding-top: 34px;
+}
+
+.title{
+    color: white;
+    font-size: 80px;
+    width: 1000px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    font-weight: 900;
+}
+
+.subtitle{
+    color: #fff;
+    font-size: 56px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 44px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 514px;
+    margin-top: 30px;
+}
+
+.forma{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.input{
+    width: 447px;
+    height: 64;
+    font-size: 24px;
+    outline: none;
+    border: 4px #8D8D8D solid;
+    border-radius: 20px;
+   /* padding-left: 50px;*/
+   text-align: center;
+}
+
+.btn{
+   background: #5B89CE;
+   color: #fff;
+   padding: 15px 18px;
+   text-decoration: none;
+   font-size: 24px;
+   font-weight: 700;
+   border: 2px #476443 solid;
+   border-radius: 25px;
+}
+
+.button{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.button a:hover{
+    background: rgb(70, 199, 70);
+    transition: .6;
+}
